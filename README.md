@@ -108,3 +108,4 @@ paste(pwr.pct, sep="", "% power")
 plot<- ggplot(data.frame(pval)) + geom_histogram(aes(pval), color="blue", bins=30) + labs(x="p-value", y="Count") +theme_classic()+ggtitle("p-value distribution of NEAT1 QRE ANOVA Monte Carlo") + theme(plot.title=element_text(hjust=0.5))
 plot
 ```
+![Task_9_plot](https://user-images.githubusercontent.com/64426292/80408995-1ced3100-8896-11ea-8aa8-c9d19103c952.jpg)
