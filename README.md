@@ -74,7 +74,7 @@ NEAT1df3
 NEAT1_plot<- ggplot(NEAT1df2, aes(Predictor, Response))+ geom_jitter(width=0.1, size=4) +stat_summary(fun.data=mean_sdl, fun.args=list(mult=1), geom="crossbar", width=0.2, color="blue") +labs(x="QRE Reporter Construct", y="Relative Luciferase Activity Level \n (Firefly Luciferase/Renilla Luciferase)") +ggtitle("Relative Luciferase Levels of NEAT1 QRE Constructs") +theme_classic()+ theme(plot.title=element_text(hjust=0.5))
 NEAT1_plot
 ```
-<img src=“./Task 8 plot.jpg">
+<img src=“./Task_8 _plot.jpg">
 
 
 ## Task 9
