@@ -1,4 +1,3 @@
-# Zakutansky_Paul_Capstone
 ## Task 1
 
 Provide a brief background and significance about a specific research problem that interests you. It could be project you’re involved with now, or a rotation project, or something you’d like to work on. The reader will need to understand enough background to make sense of the experiment you propose below. Keep it brief. In one short paragraph.
