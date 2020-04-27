@@ -74,9 +74,7 @@ NEAT1df3
 NEAT1_plot<- ggplot(NEAT1df2, aes(Predictor, Response))+ geom_jitter(width=0.1, size=4) +stat_summary(fun.data=mean_sdl, fun.args=list(mult=1), geom="crossbar", width=0.2, color="blue") +labs(x="QRE Reporter Construct", y="Relative Luciferase Activity Level \n (Firefly Luciferase/Renilla Luciferase)") +ggtitle("Relative Luciferase Levels of NEAT1 QRE Constructs") +theme_classic()+ theme(plot.title=element_text(hjust=0.5))
 NEAT1_plot
 ```
-![Task_8_plot](https://user-images.githubusercontent.com/64426292/80408853-d697d200-8895-11ea-8450-d0d5733cce56.jpg)
-
-
+![Task8a_Plot](https://user-images.githubusercontent.com/64426292/80410360-72c2d880-8898-11ea-8490-f8ca13dbfa5a.jpg)
 
 ## Task 9
 
@@ -108,4 +106,4 @@ paste(pwr.pct, sep="", "% power")
 plot<- ggplot(data.frame(pval)) + geom_histogram(aes(pval), color="blue", bins=30) + labs(x="p-value", y="Count") +theme_classic()+ggtitle("p-value distribution of NEAT1 QRE ANOVA Monte Carlo") + theme(plot.title=element_text(hjust=0.5))
 plot
 ```
-![Task_9_plot](https://user-images.githubusercontent.com/64426292/80408995-1ced3100-8896-11ea-8aa8-c9d19103c952.jpg)
+![Task8_plot](https://user-images.githubusercontent.com/64426292/80410325-62126280-8898-11ea-94c0-ee3c22dca144.jpg)
